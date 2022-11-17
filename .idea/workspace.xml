@@ -4,34 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2732e1-cf37-4838-ab2b-6d2bede14b10" name="Changes" comment="first draft">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/test.java" afterDir="false" />
+    <list default="true" id="d8dade2d-d55d-436c-a38a-2717994a6d3b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExtentReport/Listeners.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestData/OrderFormData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestData/OrderFormData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ReadTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ReadTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/TakeScreenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/TakeScreenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExtentReportManager/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtentReport/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExtentReportManager/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtentReport/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ItemCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ItemCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/OrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/OrderForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ProductOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ProductOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,155 +25,55 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HMsXw77Qgj5NrPtGJSyBlqQw9B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
+  <component name="ProjectId" id="2HgY3Yy7MU2VHY5qlPRwz2ZvBeK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19 (2)&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Automation/DemoBlazeFramework/src/test/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/MAPULA/Documents/2022/Automation/GitProjects/DemoBlazeFramework",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Automation\DemoBlazeFramework\src\main\java\TestData" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.C:/Automation/DemoBlazeFramework/testng.xml">
-    <configuration name="C:/Automation/DemoBlazeFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager">
+    <configuration name="C:/Users/MAPULA/Documents/2022/Automation/GitProjects/DemoBlazeFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoBlazeFramework" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoBlazeFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PageObjects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PageObjects" />
-      <option name="MAIN_CLASS_NAME" value="PageObjects.ItemCart" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrders" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoBlazeFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.ProductOrders" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductOrders.selectProduct" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoBlazeFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.ProductOrders" />
-      <option name="METHOD_NAME" value="selectProduct" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductOrders.validateProductInCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoBlazeFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.ProductOrders" />
-      <option name="METHOD_NAME" value="validateProductInCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="TestNG.C:/Automation/DemoBlazeFramework/testng.xml" />
-      <item itemvalue="TestNG.ItemCart" />
-      <item itemvalue="TestNG.ProductOrders" />
-      <item itemvalue="TestNG.ProductOrders.selectProduct" />
-      <item itemvalue="TestNG.ProductOrders.validateProductInCart" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Automation/DemoBlazeFramework/testng.xml" />
-        <item itemvalue="TestNG.ProductOrders" />
-        <item itemvalue="TestNG.ProductOrders.selectProduct" />
-        <item itemvalue="TestNG.ProductOrders.validateProductInCart" />
-        <item itemvalue="TestNG.ItemCart" />
+        <item itemvalue="TestNG.C:/Users/MAPULA/Documents/2022/Automation/GitProjects/DemoBlazeFramework/testng.xml" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7d2732e1-cf37-4838-ab2b-6d2bede14b10" name="Changes" comment="" />
-      <created>1668106334342</created>
+      <changelist id="d8dade2d-d55d-436c-a38a-2717994a6d3b" name="Changes" comment="" />
+      <created>1668708012659</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668106334342</updated>
+      <updated>1668708012659</updated>
     </task>
-    <task id="LOCAL-00001" summary="first draft">
-      <created>1668384391569</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1668384391569</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,20 +86,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="first draft" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Utils/TakeScreenshot.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
