@@ -5,63 +5,77 @@ import Utils.TakeScreenshot;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 @Test
 public class ProductOrders extends BaseTests {
 
-    public void HomePageValidation() throws InterruptedException {
-        TakeScreenshot.takeSnapShot(driver, "Product Store ");
+    public void HomePageValidation() throws InterruptedException, IOException {
+        //TakeScreenshot.takeSnapShot(driver, "Product Store ");
         homePage
                 .PageVerify();
+        TakeScreenshot.takeSnapShot(driver, System.currentTimeMillis()+ "_Product Store ");
 
-        Thread.sleep(3000);
     }
 
-    public void selectProduct() throws InterruptedException {
-        TakeScreenshot.takeSnapShot(driver, "Laptops");
+    @Test(dependsOnMethods = "HomePageValidation")
+    public void selectProduct() throws InterruptedException, IOException {
+        // TakeScreenshot.takeSnapShot(driver, "Laptops");
         productsPage
                 .devices()
                 .selectDevice()
-                .toCart()
-                .verifyProductAdded();
+                .addToCart();
+
+        productsPage
+                .verifyProduct();
+        TakeScreenshot.takeSnapShot(driver,System.currentTimeMillis()+ "_Selected Laptop");
+        productsPage
+                .productAddedPopUp();
         Thread.sleep(3000);
 
     }
-    public void validateProductInCart() throws InterruptedException {
-        TakeScreenshot.takeSnapShot(driver, "CartItems");
+
+    @Test(dependsOnMethods = "selectProduct")
+    public void validateProductInCart() throws InterruptedException, IOException {
+
         itemCart
                 .goToCart()
-                .placeOrder()
                 .validateCartItem();
-        Thread.sleep(3000);
+        TakeScreenshot.takeSnapShot(driver,System.currentTimeMillis()+ "_CartItems");
+        itemCart
+                .placeOrder();
+        Thread.sleep(5000);
+
     }
-    public void blankForm() throws InterruptedException {
-        TakeScreenshot.takeSnapShot(driver, "Missing form details");
+
+    @Test(dependsOnMethods = "validateProductInCart")
+    public void blankForm() throws InterruptedException, IOException {
+        TakeScreenshot.takeSnapShot(driver,System.currentTimeMillis()+ "_Missing details form");
         orderForm
-                .enterName(readTestData.name1)
-                .enterCountry(readTestData.country1)
-                .enterCity(readTestData.city1)
-                .enterCreditCard(readTestData.creditCard1)
-                .enterMonth(readTestData.month1)
-                .enterYear(readTestData.year1)
                 .submitOrder()
                 .invalidPopUp();
         Thread.sleep(3000);
 
     }
-    @Test(dependsOnMethods = "selectProduct")
-    public void FilledForm() throws InterruptedException {
-        TakeScreenshot.takeSnapShot(driver, "Confirm Purchase");
+
+    @Test(dependsOnMethods = "blankForm")
+    public void FilledForm() throws InterruptedException, IOException {
+        //TakeScreenshot.takeSnapShot(driver, "Confirm Purchase");
         orderForm
                 .enterName(readTestData.name)
                 .enterCountry(readTestData.country)
                 .enterCity(readTestData.city)
-                .enterCreditCard(readTestData.creditCard)
-                .enterMonth(readTestData.month)
-                .enterYear(readTestData.year)
+                .enterCreditCard(readTestData.creditCard.toString())
+                .enterMonth(readTestData.month.toString())
+                .enterYear(readTestData.year.toString())
                 .submitOrder()
-                .validatePurchase()
-                .confirmPurchase();
+                .validatePurchase();
+        TakeScreenshot.takeSnapShot(driver,System.currentTimeMillis()+ "_Confirm Purchase");
+        orderForm.
+                confirmPurchase();
+
         Thread.sleep(3000);
+        //TakeScreenshot.takeSnapShot(driver, "Confirm Purchase");
     }
 
 

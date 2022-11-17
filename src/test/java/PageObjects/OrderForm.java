@@ -4,28 +4,30 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class OrderForm {
     WebDriver driver= null;
 
     @FindBy(xpath = "//input[@id='name']")
-    WebElement name_xpath;
+    WebElement Name_xpath;
 
     @FindBy(xpath = "//input[contains(@id,'country')]")
-    WebElement country_xpath;
+    WebElement Country_xpath;
 
     @FindBy(xpath = "//input[contains(@id,'city')]")
-    WebElement city_xpath;
+    WebElement City_xpath;
 
     @FindBy(xpath = "//input[contains(@id,'card')]")
-    WebElement creditCard_xpath;
+    WebElement CreditCard_xpath;
 
     @FindBy(xpath = "//input[contains(@id,'month')]")
-    WebElement month_xpath;
+    WebElement Month_xpath;
 
     @FindBy(xpath = "//input[contains(@id,'year')]")
-    WebElement year_xpath;
+    WebElement Year_xpath;
 
     @FindBy(xpath = "//button[@type='button'][contains(.,'Purchase')]")
     WebElement purchase_xpath;
@@ -41,35 +43,38 @@ public class OrderForm {
 
     }
     public OrderForm enterName(String name){
-        name_xpath.sendKeys(name);
+        new WebDriverWait(driver,30).until(ExpectedConditions.visibilityOf(Name_xpath));
+        Name_xpath.sendKeys(name);
         return this;
     }
     public OrderForm enterCountry(String country){
-        country_xpath.sendKeys(country);
+        Country_xpath.sendKeys(country);
         return this;
     }
     public OrderForm enterCity(String city){
-        city_xpath.sendKeys(city);
+        City_xpath.sendKeys(city);
         return this;
     }
     public OrderForm enterCreditCard(String creditCard){
-        creditCard_xpath.sendKeys(creditCard);
+        CreditCard_xpath.sendKeys(creditCard);
         return this;
     }
     public OrderForm enterMonth(String month){
-        month_xpath.sendKeys(month);
+        Month_xpath.sendKeys(month);
         return this;
     }
     public OrderForm enterYear(String year){
-        year_xpath.sendKeys(year);
+        Year_xpath.sendKeys(year);
         return this;
     }
     public OrderForm submitOrder(){
         purchase_xpath.click();
         return this;
     }
-    public void invalidPopUp() {
+    public void invalidPopUp() throws InterruptedException {
+        Thread.sleep(3000);
         Alert alert = driver.switchTo().alert();
+        Thread.sleep(3000);
         Assert.assertEquals(alert.getText(), "Please fill out Name and Creditcard.");
         alert.accept();
 
@@ -78,9 +83,8 @@ public class OrderForm {
         Assert.assertEquals(thankYou_xpath.getText(),"Thank you for your purchase!");
         return this;
     }
-    public OrderForm confirmPurchase(){
+    public void confirmPurchase(){
         okButton_xpath.click();
-        return this;
     }
 
 }

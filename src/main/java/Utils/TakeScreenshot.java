@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class TakeScreenshot {
 
-    public static void takeSnapShot(WebDriver driver,String screenshotName){
+    public static void takeSnapShot(WebDriver driver,String screenshotName) throws IOException{
         TakesScreenshot ts=(TakesScreenshot) driver;
         File src = ts.getScreenshotAs(OutputType.FILE);
 

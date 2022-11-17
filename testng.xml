@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo Blaze Test Suite">
+    <listeners>
+        <listener class-name="ExtentReport.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Demo Blaze">
+        <classes>
+            <class name="Tests.ProductOrders">
+            </class>
+        </classes>
+    </test>
+</suite>
+

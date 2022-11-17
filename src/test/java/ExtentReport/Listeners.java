@@ -1,4 +1,4 @@
-package ExtentReportManager;
+package ExtentReport;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -29,12 +29,12 @@ public class Listeners implements ITestListener {
     }
     @Override
     public void onTestSuccess(ITestResult result){
-        extentTest.log(Status.PASS,"Test case"+result.getMethod().getMethodName()+"has passed");
+        extentTest.log(Status.PASS,"Test case"+result.getMethod().getMethodName()+" has passed");
 
     }
     @Override
-    public void onFinish(ITestContext result){extent.flush();}
+    public void onFinish(ITestContext result){ extent.flush(); }
 
-    public void onStart(ITestContext result){extent=ExtentReportManager.extentSetup();}
+    public void onStart(ITestContext result){ extent= ExtentReportManager.extentSetup(); }
 
 }

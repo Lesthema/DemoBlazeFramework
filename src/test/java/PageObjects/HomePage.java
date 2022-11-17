@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
+
 public class HomePage {
 
     WebDriver driver = null;
@@ -16,9 +17,8 @@ public class HomePage {
         this.driver=driver;
     }
 
-    public HomePage PageVerify(){
+    public void PageVerify(){
         Assert.assertEquals(ProductStore_xpath.getText(),"PRODUCT STORE");
-                return this;
 
     }
 }
