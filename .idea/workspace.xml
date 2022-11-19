@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8dade2d-d55d-436c-a38a-2717994a6d3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668704823749_Product Store .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668704828024_Selected Laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668704841263_CartItems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668704846792_Missing details form.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668704857463_Confirm Purchase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705384579_Product Store .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705389069_Selected Laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705402575_CartItems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705408176_Missing details form.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705418665_Confirm Purchase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705606790_Product Store .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705611792_Selected Laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705625273_CartItems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705630908_Missing details form.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705641477_Confirm Purchase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705791104_Product Store .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705795514_Selected Laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705808809_CartItems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705814458_Missing details form.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/1668705825064_Confirm Purchase.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/MAPULA/Documents/2022/Automation/GitProjects/DemoBlazeFramework",
@@ -48,7 +64,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/MAPULA/Documents/2022/Automation/GitProjects/DemoBlazeFramework/testng.xml">
     <configuration name="C:/Users/MAPULA/Documents/2022/Automation/GitProjects/DemoBlazeFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoBlazeFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -59,9 +75,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductOrders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlazeFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ProductOrders" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/MAPULA/Documents/2022/Automation/GitProjects/DemoBlazeFramework/testng.xml" />
+        <item itemvalue="TestNG.ProductOrders" />
       </list>
     </recent_temporary>
   </component>
